@@ -44,13 +44,14 @@ input:focus {
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   max-width: 800px;
 }
 .image-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 200px;
 }
 .avater {
   height: 150px;
@@ -86,6 +87,7 @@ input:focus {
 
 .repo {
   background-color: #2a2a72;
+  border-radius: 4px;
   display: inline-block;
   color: white;
   font-size: 0.7rem;
