@@ -74,10 +74,25 @@ input:focus {
   padding: 0;
   width: 300px;
 }
-
-.user-info ul li strong {
-  font-size: .8rem;
+.user-info ul li {
+  display: flex;
+  align-items: center;
 }
 
+.user-info ul li strong {
+  font-size: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.repo {
+  background-color: #2a2a72;
+  display: inline-block;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
 }
